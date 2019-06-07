@@ -10,5 +10,5 @@
     <string name="hintPassword">Escribe contraseña</string>
     <string name="btnOk">Aceptar</string>
     <string name="btnCancel">Cancelar</string>
-    <string name="err_empty">HI ha elements buits</string>
+    <string name="err_empty">No puede estar vacio</string>
 </resources>

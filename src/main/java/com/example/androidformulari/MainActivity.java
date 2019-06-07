@@ -21,11 +21,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void btnOkPressed(View view)
-    {
-        if("".equals(etName.getText().toString())||"".equals(etMail.getText().toString())||"".equals(etPhone.getText().toString())||"".equals(etPassword.getText().toString()))
-        {
-            Toast.makeText(this, R.string.err_empty, Toast.LENGTH_LONG).show();
+    public void btnOkPressed(View view) {
+
+        if ("".equals(etName.getText().toString())) {
+            etName.setError(getString(R.string.err_empty));
+        } else if ("".equals(etMail.getText().toString())) {
+            etMail.setError(getString(R.string.err_empty));
+        } else if ("".equals(etPhone.getText().toString())) {
+            etPhone.setError(getString(R.string.err_empty));
+        } else if ("".equals(etPassword.getText().toString())) {
+            etPassword.setError(getString(R.string.err_empty));
+        } else {
+            Toast.makeText(this, "Todo OK", Toast.LENGTH_LONG).show();
         }
     }
 }
