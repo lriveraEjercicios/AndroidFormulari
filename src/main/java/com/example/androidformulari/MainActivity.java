@@ -1,5 +1,7 @@
 package com.example.androidformulari;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,4 +37,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Todo OK", Toast.LENGTH_LONG).show();
         }
     }
+
+   
+
+
 }

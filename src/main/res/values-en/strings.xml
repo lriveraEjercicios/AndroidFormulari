@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidForm</string>
+    <string name="lblName">Name:</string>
+    <string name="hintName">Write name</string>
+    <string name="hintEmail">Write email</string>
+    <string name="lblEmail">Email:</string>
+    <string name="lblPhone">Phone:</string>
+    <string name="hintPhone">Write phone</string>
+    <string name="lblPassword">Password:</string>
+    <string name="hintPassword">Write password</string>
+    <string name="btnOk">Accept</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="err_empty">It cannot be empty</string>
+</resources>
