@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidFormulari</string>
+    <string name="lblName">Nom:</string>
+    <string name="hintName">Escriu nom</string>
+    <string name="hintEmail">Escriu email</string>
+    <string name="lblEmail">Email:</string>
+    <string name="lblPhone">Telefono:</string>
+    <string name="hintPhone">Escribe telefono</string>
+    <string name="lblPassword">Contraseña:</string>
+    <string name="hintPassword">Escribe contraseña</string>
+    <string name="btnOk">Aceptar</string>
+    <string name="btnCancel">Cancelar</string>
+</resources>
