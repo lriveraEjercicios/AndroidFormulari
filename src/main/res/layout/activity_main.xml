@@ -130,6 +130,12 @@
                 android:hint="@string/hintDate"
                 android:inputType="date"/>
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="3"
+            android:ellipsize="end"
+            android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit nam, ad per augue commodo lectus ante neque mi vehicula, netus porttitor porta fringilla vulputate posuere semper. Aliquam sociosqu augue ultrices molestie pretium eu commodo, suspendisse class tempor tincidunt fames fringilla eros per, ac ante integer nullam vel sociis luctus, proin faucibus netus interdum sagittis nascetur. Fermentum primis purus iaculis euismod phasellus et nam sociis vestibulum, consequat lobortis cubilia ultricies facilisis lectus libero quam, lacinia porttitor semper ac magnis molestie laoreet sociosqu."/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

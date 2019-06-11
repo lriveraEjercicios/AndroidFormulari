@@ -11,6 +11,8 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText etName, etPhone, etMail, etPassword,etDate;
@@ -56,6 +58,11 @@ public class MainActivity extends AppCompatActivity {
                                 pYear, pMonth, pDay);
                 //Minima data seleccionable, avui:
                 dateDialog.getDatePicker().setMinDate(System.currentTimeMillis());
+
+                //Definir el maxDate a 22/06/2019
+                Calendar calendar = Calendar.getInstance();
+                calendar.set(2019,5,22);
+                dateDialog.getDatePicker().setMaxDate(calendar.getTimeInMillis());
                 dateDialog.show();
 
             }
