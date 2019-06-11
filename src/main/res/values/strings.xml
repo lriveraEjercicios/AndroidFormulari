@@ -14,4 +14,6 @@
     <string name="btn_yes">Si</string>
     <string name="btn_no">No</string>
     <string name="questionDelete">¿Seguro que quieres borrar los campos?</string>
+    <string name="lblDate">Fecha nacimiento</string>
+    <string name="hintDate">Escribe fecha nacimiento</string>
 </resources>
